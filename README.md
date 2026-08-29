@@ -1,28 +1,50 @@
-# 🛰️ Pan-India AI Climate Digital Twin (ISRO BAH 2026)
+# 🛰️ AI-Powered Pan-India Climate Digital Twin
 
-An interactive geospatial AI digital twin platform simulating climate anomalies, SCS-CN hydrological surface runoff, and automated multi-sector SOP advisories across all 28 Indian States and 8 Union Territories.
+An interactive, high-precision geospatial Climate Digital Twin covering all 36 Indian States and Union Territories. Built for multi-sector risk resilience, real-time telemetry observation, stress simulation, and automated Standard Operating Procedure (SOP) advisories.
 
-## 🌟 Key Features
-- **Pan-India Geospatial Coverage:** Complete telemetry integration for all 36 States & UTs with soil matrix and baseline elevation indexing.
-- **Live Earth Observation Sync:** Real-time API telemetry pipeline with automated fallback buffers.
-- **What-If Scenario Sandbox:** Dynamic stress-testing for thermal anomalies (-5°C to +7°C) and precipitation variance.
-- **Hydrological Engine:** SCS-CN runoff volume and watershed inflow modeling in Million Cubic Meters (MCM).
-- **Automated SOP Intelligence:** Context-aware advisories for Agriculture, Dam Spillway Control, and SDMA Disaster Response.
-- **Telemetry Audit Export:** On-the-fly scenario export to CSV for administrative decision support.
+---
 
-## 🛠️ Tech Stack
-- **Frontend / Framework:** Streamlit
-- **Geospatial GIS:** Folium, Streamlit-Folium, OpenStreetMap
-- **Data Analytics & Charts:** Plotly Graph Objects, Pandas, NumPy
-- **ML / Modeling:** Scikit-Learn (Random Forest Ensemble)
+## 🌟 Key Highlights & Features
 
-## 🚀 Installation & Local Execution
+- **🌐 Complete Pan-India Coverage:** Dynamic monitoring across all 36 States and UTs with baseline geospatial and topographical intelligence.
+- **🛰️ Live Telemetry & Satellite Sync:** Automated API integration fetching live ambient parameters (Temperature, Precipitation, Humidity, Wind speed).
+- **📈 7-Day Dual Predictive Dynamics:** Real-time ML-powered multi-day forecasting for surface runoff, thermal peaks, and precipitation trends.
+- **🧪 Stress-Testing Sandbox:** Interactive environment modifiers enabling disaster management teams to simulate extreme climate stress conditions.
+- **🚨 Automated Sector SOP Advisories:** Sector-specific actionable intelligence for Agriculture, Urban Drainage, Energy Grids, and Disaster Response.
+
+---
+
+## 🛠️ Architecture & Tech Stack
+
+| Domain | Technology / Tools |
+| :--- | :--- |
+| **Frontend & UI** | Streamlit, Custom Cyber-Glass Theme |
+| **GIS & Geospatial Mapping** | Folium, Leaflet, Streamlit-Folium |
+| **Analytics & Visualization** | Plotly Graph Objects, Pandas, NumPy |
+| **Machine Learning** | Scikit-learn (Multi-target Regression) |
+| **Telemetry & Data Source** | Open-Meteo High-Resolution Global Feeds |
+| **Cloud Deployment** | Streamlit Community Cloud |
+
+---
+
+## 🚀 Live Demo & Prototype
+
+- **Live Application:** [Launch Pan-India Climate Twin](https://pan-india-climate-digital-twin.streamlit.app)
+- **Repository:** [GitHub Project Repo](https://github.com/sharmila78-bit/pan-india-climate-digital-twin)
+
+---
+
+## 💻 Local Installation & Setup
+
 ```bash
-# Clone the repository
+# 1. Clone repository
 git clone [https://github.com/sharmila78-bit/pan-india-climate-digital-twin.git](https://github.com/sharmila78-bit/pan-india-climate-digital-twin.git)
 
-# Install dependencies
+# 2. Navigate to project folder
+cd pan-india-climate-digital-twin
+
+# 3. Install required libraries
 pip install -r requirements.txt
 
-# Launch Dashboard
-python -m streamlit run app.py
+# 4. Launch the application
+streamlit run app.py
