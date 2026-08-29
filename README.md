@@ -29,7 +29,7 @@ An interactive, high-precision geospatial Climate Digital Twin covering all 36 I
 
 ## 🚀 Live Demo & Prototype
 
-- **Live Application:** [Launch Pan-India Climate Twin](https://pan-india-climate-digital-twin.streamlit.app)
+- **Live Application:** [Launch Pan-India Climate Twin](https://pan-india-twin-2026.streamlit.app)
 - **Repository:** [GitHub Project Repo](https://github.com/sharmila78-bit/pan-india-climate-digital-twin)
 
 ---
