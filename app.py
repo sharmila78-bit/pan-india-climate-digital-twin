@@ -12,7 +12,7 @@ import datetime
 # 1. ENTERPRISE PAGE CONFIGURATION
 # ----------------------------------------------------
 st.set_page_config(
-    page_title="ISRO BAH 2026 - Pan-India AI Climate Digital Twin",
+    page_title="Omnikon  2026 - Pan-India AI Climate Digital Twin",
     page_icon="🛰️",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -108,8 +108,8 @@ def fetch_satellite_telemetry(lat, lon):
 # ----------------------------------------------------
 # 4. SIDEBAR - CONTROLS & TWIN STRESS SANDBOX
 # ----------------------------------------------------
-st.sidebar.markdown("### 🛰️ ISRO BAH 2026 Telemetry")
-st.sidebar.caption("Project: **Pan-India Climate Digital Twin** | Team: **Code Rocketeers**")
+st.sidebar.markdown("### 🛰️ Climate Telemetry & Control")
+st.sidebar.caption("Project: **Pan-India Climate Digital Twin** | Omnikon Hackathon 2026")
 
 selected_region = st.sidebar.selectbox("🎯 Target Sector (All 36 States & UTs)", list(REGIONS.keys()))
 region_meta = REGIONS[selected_region]
@@ -214,7 +214,7 @@ with col_map:
     
     folium.Marker(
         location=[region_meta["lat"], region_meta["lon"]],
-        tooltip=f"Active ISRO/IMD Node: {selected_region}",
+        tooltip=f"Active IMD/Satellite Node: {selected_region}",
         icon=folium.Icon(color="blue", icon="cloud")
     ).add_to(map_obj)
     
